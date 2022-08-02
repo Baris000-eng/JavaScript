@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+  
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Button Click Counter</title>
+</head>
+  
+<body style="text-align: center; background-color: green;">
+    <h1 style="color: blue; background-color: yellow;">
+       ButtonClickCounter
+    </h1>
+    <h4>
+       Counting the number of button clicks ...
+    </h4>
+  
+    <button id="button">Click Me !</button>
+  
+    <p>
+        Button is clicked <span 
+        id="display">0</span> times
+    </p>
+  
+    <script type="text/javascript">
+        var clickCount = 0;
+        var button = document.getElementById("button");
+        var display = document.getElementById("display");
+        button.onclick = function () {
+            clickCount++;
+            display.innerHTML = clickCount;
+        }
+    </script>
+</body>
+  
+</html>
