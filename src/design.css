@@ -1,0 +1,17 @@
+.CarsAndTrucksExample {
+    font-family: sans-serif;
+    text-align: left;
+}
+
+h5 {
+    display: inline;
+}
+
+h6 {
+    display: inline;
+}
+
+button {
+    width: 74px;
+    height: 18px;
+}
